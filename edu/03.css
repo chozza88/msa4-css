@@ -1,0 +1,15 @@
+/* * {
+  color: skyblue;
+} */
+h1 {
+  color: red;
+}
+h1 {
+  color: black;
+}
+.class-style {
+  color: green;
+}
+#id-style {
+  color: blueviolet;
+}
