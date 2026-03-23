@@ -10,6 +10,7 @@ ul li {
 ul li span:first-child {
   font-size: 1.5em;
   color: #ad3000;
+  font-weight: 500;
 }
 ul li span:last-child {
   font-size: 0.8em;

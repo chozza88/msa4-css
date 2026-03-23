@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(41, 39, 39);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+h1 {
+  color: white;
+}
+
+.memo {
+  color: #f0a534;
+}
+
+/* main */
+.main {
+  width: 100%;
+  box-sizing: border-box;
+}
+.message {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  background-color: #fff;
+  background-color: rgb(41, 39, 39);
+  box-sizing: border-box;
+}
+.message span {
+  color: #fff;
+}
+/* message */
+.banner {
+  width: 100%;
+  height: 400px;
+  background-color: #cec0c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px dotted black;
+  box-sizing: border-box;
+}
+.banner-item,
+.banner-return {
+  color: #c51f1f;
+  font-size: 25px;
+  font-weight: 600;
+}
+.banner-return-memo,
+.banner-item-memo {
+  text-align: center;
+}
+span {
+  color: rgb(39, 39, 230);
+}
+.banner-item-memo > div,
+.banner-return-memo > div {
+  margin-bottom: 20px;
+}
+/* banner */
+.alram {
+  width: 100%;
+  height: 200px;
+  background-color: #cec0c0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.alram-item {
+  margin-bottom: 20px;
+  color: #c51f1f;
+  font-size: 25px;
+  font-weight: 600;
+}
+.alram-item-memo div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.alram-item-memo div:first-child {
+  font-weight: 500;
+}
+.alram-item-memo div:last-child {
+  font-size: 12px;
+}
+/* alram */
