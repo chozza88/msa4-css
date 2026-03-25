@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+body {
+  background-color: #000;
+}
+.container {
+  margin: auto;
+  background-color: #fff;
+  border: 1px dotted #000;
+  width: 600px;
+  height: 76vh;
+  padding: 40px 20px;
+  background-image: url("../edu/dog.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 50vh;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  background-color: #185f18;
+  padding: 20px;
+}
+
+.sub-title {
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.member-head {
+  color: rgb(230, 31, 31);
+}
+.member-content {
+  padding: 20px;
+}
+.member-content p {
+  line-height: 30px;
+}
+.content-title {
+  padding: 15px 0;
+  color: #ff0000;
+}
+
+.content-list {
+  padding-left: 40px;
+  line-height: 30px;
+}
