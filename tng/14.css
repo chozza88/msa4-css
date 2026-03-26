@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 50%;
+  margin: 0 auto;
+}
+.record {
+  position: relative;
+  z-index: 0;
+}
+.record::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("../edu/dog.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  position: absolute;
+}
+.main-name {
+  color: rgb(220, 43, 226);
+}
+.transparent {
+  background-color: transparent;
+}
+.gray {
+  border: 1px solid lightgray;
+}
+.star::before {
+  content: "*";
+  color: #ff0000;
+}
+.memo-container {
+  display: flex;
+}
+input:focus,
+textarea:focus {
+  border: 3px solid red;
+}
+input[type="radio"]:checked + label {
+  color: red;
+}
+
+.last {
+  background-color: #000;
+  color: #fff;
+  display: none;
+}
+.submit:hover + .last {
+  display: inline;
+}
