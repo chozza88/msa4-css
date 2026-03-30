@@ -1,0 +1,40 @@
+@keyframes upDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100px);
+  }
+}
+.container {
+  display: flex;
+}
+.ball {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: upDown 1s ease-in-out infinite alternate;
+}
+.ball:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.ball:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.ball:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.ball:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.ball:nth-child(5) {
+  animation-delay: 0.4s;
+}
